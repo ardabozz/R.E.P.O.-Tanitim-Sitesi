@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.E.P.O. - Korku Oyunu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpeg" href="img/REPOlogo.jpeg">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigasyon Menüsü -->
+        <nav>
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#" id="navLogoLink">
+                        <img src="img/REPOlogo.jpeg" alt="R.E.P.O. Logo">
+                        <h3>R.E.P.O.</h3>
+                    </a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <a href="#features">Özellikler</a>
+                    <a href="#description">Oyun Hakkında</a>
+                    <a href="#reviews">Yorumlar</a>
+                    <a href="#requirements">Sistem Gereksinimleri</a>
+                    <a href="#pricing">Satın Al</a>
+                    <a href="#contact">İletişim</a>
+                </div>
+                <div class="language-selector">
+                    <button id="currentLang">TR</button>
+                    <div class="language-dropdown" id="langDropdown">
+                        <a href="#" data-lang="tr" class="active">Türkçe</a>
+                        <a href="#" data-lang="en">English</a>
+                        <a href="#" data-lang="de">Deutsch</a>
+                        <a href="#" data-lang="fr">Français</a>
+                    </div>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </nav>
+        
+        <!-- Header Bölümü -->
+        <header>
+            <a href="#" id="logoLink">
+                <img src="img/REPOlogo.jpeg" alt="R.E.P.O. Logo" class="logo">
+            </a>
+            <h1>R.E.P.O.</h1>
+            <p>6 kişiye kadar çevrimiçi co-op korku oyunu. Değerli, tamamen fizik tabanlı nesneleri bulun ve yaratıcınızın isteklerini karşılamak için onları dikkatle taşıyıp çıkarın.</p>
+            <a href="#pricing" class="buy-btn">Şimdi Satın Al</a>
+        </header>
+        
+        <!-- Ürün Özellikleri -->
+        <section id="features">
+            <h2>Ürün Özellikleri</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Fizik Tabanlı Oyun</h3>
+                    <p>Ağır piyanolardan kırılgan seramiklere kadar her şeyi taşıyın ve değerli kargoların güvenle hedefe ulaşmasını sağlamak için takım çalışması yapın.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>6 Kişiye Kadar Co-op</h3>
+                    <p>Arkadaşlarınızla birlikte korkutucu ortamlara girip fizik tabanlı kavrama aracınızı kullanarak değerli nesneleri çıkarın.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👻</div>
+                    <h3>Korku Deneyimi</h3>
+                    <p>Uzun zaman önce kaybolmuş insanlığın hayaletli kalıntılarında değerli eşyaları bulun, taşıyın ve çıkarın.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Robotik Geliştirmeler</h3>
+                    <p>Zorlu kazandığınız paranızı [FAZLALIK] kullanarak yükseltmeler ve silahlar satın alın.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Oyun Açıklaması -->
+        <section id="description">
+            <h2>Oyun Hakkında</h2>
+            <div class="description-container">
+                <div class="description-text">
+                    <p>R.E.P.O., fizik, yakınlık sesli sohbeti ve korkutucu canavarlar içeren çevrimiçi bir co-op korku oyunudur. Siz ve 5 arkadaşınız, fizik tabanlı kavrama aracınızı kullanarak değerli nesneleri çıkarmak için korkutucu ortamlara girebilirsiniz.</p>
+                    
+                    <p><strong>Canavarlar bile Newton'un yerçekimi yasasından etkilenir!</strong><br>
+                    Gizemli bir bilgisayar zekasının görevlisi olarak, uzun zaman önce kaybolmuş insanlığın hayaletli kalıntılarından değerli eşyaları bulmanız, taşımanız ve çıkarmanız gerekiyor.</p>
+                    
+                    <p><strong>...ama ne zaman sessiz kalacağınızı bilin.</strong><br>
+                    Ağır piyanolardan kırılgan seramiklere kadar her şeyi taşıyın ve değerli kargoların güvenle hedefe ulaşmasını sağlamak için takım çalışması yapın.</p>
+                    
+                    <p><strong>Robotik geliştirmeler şansınızı artırır!</strong><br>
+                    Zorlu kazandığınız paranızı [FAZLALIK] kullanarak acımasız [CÖMERT] yaratıcınızdan yükseltmeler ve silahlar satın alın.</p>
+                </div>
+                <div class="description-image">
+                    <img src="img/header.jpg" alt="R.E.P.O. Oyun Görüntüsü" class="game-image">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Kullanıcı Yorumları -->
+        <section id="reviews">
+            <h2>Kullanıcı Yorumları</h2>
+            <div class="reviews">
+                <div class="review-card">
+                    <div class="user-info">
+                        <div class="user-avatar">JD</div>
+                        <div>
+                            <h4>John Doe</h4>
+                            <p>Oyun Tutkunu</p>
+                        </div>
+                    </div>
+                    <p>"R.E.P.O. şimdiye kadar oynadığım en iyi co-op korku oyunlarından biri. Fizik motoru gerçekten etkileyici ve arkadaşlarla oynaması çok eğlenceli!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="user-info">
+                        <div class="user-avatar">AS</div>
+                        <div>
+                            <h4>Ayşe Şahin</h4>
+                            <p>Yayıncı</p>
+                        </div>
+                    </div>
+                    <p>"Yayınlarımda en çok izlenen oyunlardan biri oldu. Hem korku unsurları hem de fizik tabanlı oynanış izleyicileri çok eğlendiriyor. Kesinlikle tavsiye ederim!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="user-info">
+                        <div class="user-avatar">MK</div>
+                        <div>
+                            <h4>Mehmet Kaya</h4>
+                            <p>Oyun Eleştirmeni</p>
+                        </div>
+                    </div>
+                    <p>"Fizik tabanlı nesneleri taşıma mekaniği çok iyi düşünülmüş. Arkadaşlarla oynaması son derece keyifli ve gerilim dolu anlar yaşatıyor."</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sistem Gereksinimleri -->
+        <section id="requirements">
+            <h2>Sistem Gereksinimleri</h2>
+            <div class="requirements-container">
+                <div class="req-column">
+                    <h3>Minimum</h3>
+                    <ul>
+                        <li><strong>İşletim Sistemi:</strong> Windows 10</li>
+                        <li><strong>İşlemci:</strong> Core i5 6600</li>
+                        <li><strong>Bellek:</strong> 8 GB RAM</li>
+                        <li><strong>Ekran Kartı:</strong> GTX 970</li>
+                        <li><strong>DirectX:</strong> Sürüm 10</li>
+                        <li><strong>Ağ:</strong> Geniş Bant İnternet bağlantısı</li>
+                        <li><strong>Depolama:</strong> 1 GB kullanılabilir alan</li>
+                    </ul>
+                </div>
+                <div class="req-column">
+                    <h3>Önerilen</h3>
+                    <ul>
+                        <li><strong>İşletim Sistemi:</strong> Windows 11</li>
+                        <li><strong>İşlemci:</strong> Intel Core i7 8700</li>
+                        <li><strong>Bellek:</strong> 8 GB RAM</li>
+                        <li><strong>Ekran Kartı:</strong> GTX 1070</li>
+                        <li><strong>DirectX:</strong> Sürüm 12</li>
+                        <li><strong>Ağ:</strong> Geniş Bant İnternet bağlantısı</li>
+                        <li><strong>Depolama:</strong> 1 GB kullanılabilir alan</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Fiyat ve Satın Alma -->
+        <section id="pricing">
+            <h2>Fiyat ve Satın Alma</h2>
+            <div class="pricing">
+                <div class="price">$5.79</div>
+                <p>26 Şubat 2025'te Erken Erişim olarak çıkacak</p>
+                <div class="purchase-container">
+                    <a href="https://store.steampowered.com/app/3241660/REPO/" class="buy-btn" target="_blank">Satın Al</a>
+                    <div class="shipping"><span class="shipping-icon">🚚</span> <span class="shipping-text">Ücretsiz Kargo</span></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- İletişim ve Footer -->
+        <section id="contact">
+            <h2>İletişim</h2>
+            <div class="contact-form">
+                <div class="form-group">
+                    <label for="name">Ad Soyad</label>
+                    <input type="text" id="name" placeholder="Adınız ve soyadınız">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-posta</label>
+                    <input type="email" id="email" placeholder="E-posta adresiniz">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea id="message" rows="5" placeholder="Mesajınız"></textarea>
+                </div>
+                <button type="submit">Gönder</button>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="social-links">
+                <a href="#"><span class="icon">📱</span>Discord</a>
+                <a href="#"><span class="icon">📺</span>YouTube</a>
+                <a href="#"><span class="icon">🎬</span>TikTok</a>
+                <a href="#"><span class="icon">📺</span>Twitch</a>
+            </div>
+            <p>© 2023 R.E.P.O. Tüm hakları saklıdır. Geliştirici: semiwork | Yayıncı: semiwork</p>
+            <p>Bu site, Steam'deki <a href="https://store.steampowered.com/app/3241660/REPO/" style="color: #ff4500;">R.E.P.O.</a> oyunu için tanıtım amaçlı hazırlanmıştır.</p>
+        </footer>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <a href="#" id="backToTop" class="back-to-top">↑</a>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
